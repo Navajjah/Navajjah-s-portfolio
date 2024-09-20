@@ -124,6 +124,7 @@
 
 html {
     scroll-behavior: smooth;
+    font-size: 70%;
 }
 
 body {
@@ -170,17 +171,17 @@ nav a {
 }
 nav a:hover,
 nav a:active {
-    color: purple;
-    border-bottom: 2px solid purple;
+    color: blueviolet;
+    border-bottom: 2px solid blueviolet;
 }
 
-/*@media(max-width:995px) {
+@media(max-width:995px) {
     nav{
         position: absolute;
         top: 100%;
         right: 0;
         width: 40%;
-        border-left: 3px solid purple;
+        border-left: 3px solid blueviolet;
         border-bottom-left-radius: 2rem;
         padding: 1rem solid;
         background-color: #161616;
@@ -199,16 +200,16 @@ nav a:active {
     nav a:active {
         padding: 1rem;
         border-radius: 0.5rem;
-        border-bottom: o.5rem solid purple;
+        border-bottom: o.5rem solid blueviolet; 
     }
-}*/
+}
 section {
     min-height: 100vh;
     padding: 5rem 9% 5rem;
 }
 .home {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 8rem;
     background-color: black;
@@ -219,33 +220,74 @@ section {
     line-height: 1.3;
 }
 span {
-    color: purple;
+    color: blueviolet;
+    text-shadow: 0 0 10px blueviolet;
 }
 .home.home-content h3 {
     font-size: 4rem;
     margin-bottom: 1rem;
     font-weight: 700;
 }
-/*.home.gif {
+.home-img {
     border-radius: 50%;
 }
-.home.gif img {
+.home-img img {
     position: relative;
     width: 32vw;
     border-radius: 50%;
-    box-sizing: 25 px solid;
+    box-sizing: 0 0 25 px solid;
     cursor: pointer;
     transition: 0.2s linear;
 }
-.home.gif img:hover {
+.home.home-img img:hover {
     font-size: 1.8rem;
     font-weight: 500;
 }
-    */
+    
 
-.social-icons {
+.social-icons a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 4rem;
+    height: 4rem;
+    background-color: transparent;
+    border: 0.2rem solid blueviolet;
+    font-size: 2rem;
+    border-radius: 50%;
+    margin: 3rem 1.5rem 3rem;
+    transition: 0.3s ease;
     color: white;
-
+}
+.social-icons a:hover {
+    color: transparent;
+    transform: scale(1.3)translateY(-5px);
+    background-color: transparent;
+    box-shadow: 0 0 25px blueviolet;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20rem;
+    padding: 1rem 2.8rem;
+    background-color: black;
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: blueviolet;
+    letter-spacing: 0.3rem;
+    font-weight: 600;
+    border: 2px solid blueviolet;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.btn:hover {
+    transform: scale3d(1.03);
+}
+.home.home-content p {
+    max-width: 600px;
 }
 
 .poppins-light {
@@ -254,6 +296,7 @@ span {
     font-style: normal;
 
 }
+
 
 
 
