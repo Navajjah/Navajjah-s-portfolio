@@ -225,7 +225,7 @@ section {
   width: 400px;
   height: 400px;
   border-radius: 50%; /* Circular image */
-  border: 5px solid blueviolet; /* Adding a border */
+  border: 5px solid blueviolet; 
   object-fit: cover;
   transition: transform 0.3s ease;
 }
@@ -242,7 +242,7 @@ section {
 }
 
 .home-content h1 span {
-  color: blueviolet; /* Highlighting name */
+  color: blueviolet; /* Highlighting the name */
   font-weight: bold;
   text-shadow: 0 0 10px;
 }
@@ -274,7 +274,7 @@ section {
 }
 
 .social-icons a:hover {
-  color: blueviolet; /* Darker blue on hover */
+  color: blueviolet; 
 }
 
 /* Button Styling */
@@ -294,7 +294,7 @@ section {
   background-color: white;
   border-color: blueviolet;
   color: blueviolet;
-  transform: scale(1.05); /* Slightly scale button on hover */
+  transform: scale(1.05); 
 }
 
 /* Responsive Design */
@@ -592,7 +592,7 @@ section .button button {
 .project-gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
-  gap: 30px; /* Space between project cards */
+  gap: 30px; 
   justify-items: center;
 }
 
@@ -720,7 +720,7 @@ section .button button {
   background-color: white;
   border-color: blueviolet;
   color: blueviolet;
-  transform: scale(1.05); /* Slightly scales the button on hover */
+  transform: scale(1.05); 
 }
 
 /* Responsive Adjustments */
